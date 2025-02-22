@@ -59,7 +59,7 @@ export default function ProfileAdmin() {
 
   useEffect(() => {
     if (!loading && !isAuthenticated) {
-      router.push("AdminLogin"); // Redirect Admins to AdminLogin
+      router.push("/adminData/LoginAdmin"); // Redirect Admins to AdminLogin
     }
   }, [isAuthenticated, loading, router]);
 
@@ -106,7 +106,7 @@ export default function ProfileAdmin() {
 
   const handleLogout = async () => {
     sessionStorage.removeItem("userType"); // Clear userType from storage
-    router.push("LoginAdmin"); // Redirect to AdminLogin
+    router.push("/adminData/LoginAdmin"); // Redirect to AdminLogin
 
     try {
       const response = await fetch("../../api/auth/logout", {
