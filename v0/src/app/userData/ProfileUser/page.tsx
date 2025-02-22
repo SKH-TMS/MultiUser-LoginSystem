@@ -59,7 +59,7 @@ export default function Profile() {
 
   useEffect(() => {
     if (!loading && !isAuthenticated) {
-      router.push("/Login");
+      router.push("/userData/LoginUser");
     }
   }, [isAuthenticated, loading, router]);
 
@@ -102,7 +102,7 @@ export default function Profile() {
   };
 
   const handleLogout = async () => {
-    router.push("LoginUser"); // Redirect immediately
+    router.push("/userData/LoginUser"); // Redirect immediately
 
     try {
       const response = await fetch("../../api/auth/logout", {
