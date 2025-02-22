@@ -21,6 +21,11 @@ Repositry Number: T18
 - Navigation bar is common for all users
 - Home page is also common for all user
 
+### Version 1 (v1)
+
+- Navigation bar is different
+- Home page is also common for all user
+
 ## How to Run:
 
 - Open folder for any version
