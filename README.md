@@ -20,11 +20,13 @@ Repositry Number: T18
 
 - Navigation bar is common for all users
 - Home page is also common for all user
+- **Note:** After logged-in, login/register/logout links are not tested in this version.
 
 ### Version 1 (v1)
 
 - Navigation bar is different
 - Home page is common for all user
+- **Note:** After logged-in, login/register/logout links are not tested in this version.
 
 ### Version 2 (v2)
 
