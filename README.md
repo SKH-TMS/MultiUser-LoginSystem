@@ -26,6 +26,11 @@ Repositry Number: T18
 - Navigation bar is different
 - Home page is common for all user
 
+### Version 2 (v2)
+
+- **Problem in V1:** database connection and collection's name are used in every file, due to absence of model.
+- Use model and solve problem exists in version 1.
+
 ## How to Run:
 
 - Open folder for any version
